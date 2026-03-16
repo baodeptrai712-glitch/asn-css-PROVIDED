@@ -74,7 +74,7 @@ a:hover {
     text-decoration: underline;
 }
 
-header a{
+header a, footer a{
     color: black;
 }
 
@@ -254,6 +254,7 @@ button {
     border: 1px solid grey;
     background-color: white;
     border-radius: 4px;
+    /*** I don't know if I should include this with body in starter codes ***/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -262,5 +263,3 @@ button {
 button:hover {
     background-color: grey;
 }
-
-
